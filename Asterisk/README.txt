@@ -1,13 +1,13 @@
 ##Denis ROSENKRANZ
-denisrosenkranz.com
+##denisrosenkranz.com
 
-Script pour effectuer une installation automatique d'Asterisk 11 et de DAHDI sur une Debian 6 fraîchement installé.
+##Version 1.1
 
-Ce script installe donc:
-- DAHDI
-- Asterisk
-	- app_meetme
-	- CORE-SOUNDS-FR-ULAW
-	- MOH-OPSOUND-ULAW
-	- EXTRA-SOUNDS-FR-ULAW
+##Rajout du choix de version d'Asterisk (11 ou 1.8)
+##Installation de googleTTS
 
+
+##Version 1.0
+
+#Première version fonctionelle du script
+#Installation d'Asterisk 11.X avec Meetme, les sons en français et de DAHDI

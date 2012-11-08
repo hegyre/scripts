@@ -2,8 +2,10 @@
 #Script d'installation automatique d'Asterisk 11 et de DAHDI
 #Denis ROSENKRANZ
 #denisrosenkranz.com
+
 ##Version 1.0
-#premère version fonctionelle du script
+#Première version fonctionelle du script
+#Installation d'Asterisk 11.X avec Meetme, les sons en français et de DAHDI
 
 echo "Installation des dépendances"
 sleep 2
