@@ -10,7 +10,7 @@
 echo "Installation des dépendances"
 sleep 2
 aptitude update && aptitude -fy upgrade
-aptitude -fy install build-essential libxml2-dev libncurses5-dev linux-headers-`uname -r` libsqlite3-dev
+aptitude -fy install build-essential libxml2-dev libncurses5-dev linux-headers-`uname -r` libsqlite3-dev libssl-dev
 
 echo "Téléchargement de la denière version d'Asterisk et de DAHDI"
 sleep 2
