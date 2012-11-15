@@ -13,8 +13,8 @@
 
 echo "Installation des dépendances"
 sleep 2
-aptitude update && aptitude -fy upgrade
-aptitude -fy install build-essential libxml2-dev libncurses5-dev linux-headers-`uname -r` libsqlite3-dev libssl-dev perl libwww-perl sox mpg123 
+apt-get update && apt-get -y upgrade
+apt-get -y install build-essential libxml2-dev libncurses5-dev linux-headers-`uname -r` libsqlite3-dev libssl-dev perl libwww-perl sox mpg123 
 
 echo "Quelle version d'Asterisk souhaitez vous installer?"
 echo "1: Version 11.x.x"
