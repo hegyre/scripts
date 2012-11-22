@@ -64,7 +64,7 @@ sleep 2
 
 cd /usr/src/nagios
 tar xvzf nrpe-2.13.tar.gz
-cd /nrpe-2.13
+cd nrpe-2.13
 ./configure
 make all
 make install-plugin
